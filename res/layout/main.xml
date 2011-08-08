@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white">
+	<LinearLayout
+		android:id="@+id/LLRightSideBar"
+		android:orientation="vertical"
+		android:layout_width="80dp"
+		android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:gravity="center|center_vertical">
+		<Button
+			android:id="@+id/BTNOptions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/side_bar_options_button"
+			android:textSize="10sp" />
+		<com.doomonafireball.bemusicment.VerticalSeekBar
+			android:id="@+id/VSBRightSide"
+			android:layout_width="30dp"
+			android:layout_height="fill_parent"
+			android:layout_marginTop="10dp"
+			android:thumb="@drawable/seek_thumb"
+			android:progressDrawable="@drawable/progress_vertical" />
+	</LinearLayout>
+	<TableLayout
+		android:id="@+id/TLButtonContainer"
+		android:scrollbars="none"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/LLRightSideBar" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/changerowscols"
+		android:title="@string/main_options_menu_changerowscols" />
+	<item
+		android:id="@+id/editbuttons"
+		android:title="@string/main_options_menu_editbuttons" />
+	<item
+		android:id="@+id/about"
+		android:title="@string/main_options_menu_about" />
+</menu>

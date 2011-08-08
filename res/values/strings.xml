@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BemusicmentActivity!</string>
+    <string name="app_name">Bemusicment</string>
+    
+    <string name="button_empty">empty</string>
+    
+    <string name="side_bar_options_button">Options</string>
+    
+    <string name="main_options_menu_changerowscols">Set Rows and Columns</string>
+    <string name="main_options_menu_editbuttons">Edit Buttons</string>
+    <string name="main_options_menu_about">About</string>
+    
+    <string name="change_rows_cols_dialog_rows">Rows</string>
+    <string name="change_rows_cols_dialog_columns">Columns</string>
+    <string name="change_rows_cols_dialog_set">Set</string>
+    <string name="change_rows_cols_dialog_cancel">Cancel</string>
+    
+</resources>

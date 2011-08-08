@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vertical_seek_bar_start_color">#ff9d9d9d</color>
+    <color name="vertical_seek_bar_center_color">#ff5a5a5a</color>
+    <color name="vertical_seek_bar_end_color">#ff747474</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+	
+    <color name="button_blue_outline">#0267BA</color>
+    <color name="button_blue_default_top">#86C8FE</color>
+    <color name="button_blue_default_bottom">#025FAA</color>
+    <color name="button_blue_pressed_top">#C3E4FE</color>
+    <color name="button_blue_pressed_bottom">#017ADC</color>
+</resources>
